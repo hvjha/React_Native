@@ -95,3 +95,65 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+# React Native Learning Journey 🚀
+
+Hi, I'm **Harsh Vardhan Jha**.
+This repository contains my day-by-day learning progress while learning **React Native with TypeScript**.
+
+---
+
+## 📅 Day-wise Progress
+
+### Day 1
+
+* Created React Native project
+* Understood project structure
+* Learned `View`, `Text`, and `StyleSheet`
+* Ran app on Android Emulator
+
+### Day 2
+
+* Learned `useState`
+* Added buttons
+* Handled button click events
+
+### Day 3
+
+* Learned conditional rendering
+* Created `UserData` and `CompanyData` components
+* Switched UI using a single button
+
+---
+
+## 🛠️ Tech Stack
+
+* React Native
+* TypeScript
+* Android Studio
+* VS Code
+* Git & GitHub
+
+---
+
+## ▶️ Run the Project
+
+```bash
+npm install
+npx react-native start
+npx react-native run-android
+```
+
+---
+
+## 🎯 Goal
+
+Build real-world mobile applications, including an **Attendance App with Face Recognition**.
+
+---
+
+## 📌 Learning Notes
+
+I will continue updating this repository every day with new concepts, code examples, and mini projects.
+
+⭐ If you are also learning React Native, feel free to follow along!
