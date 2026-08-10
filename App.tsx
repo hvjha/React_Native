@@ -1,3 +1,3 @@
-import PropsDemo from './src/lessons/02_Props';
+import Beautifying from './src/lessons/03_Beutifying';
 
-export default PropsDemo;
+export default Beautifying;
