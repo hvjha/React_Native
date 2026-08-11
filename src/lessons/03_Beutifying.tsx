@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, View, StyleSheet} from 'react-native';
+import style from '../../style';
 
 const Beautifying = () => {
   return (
@@ -16,6 +17,18 @@ const Beautifying = () => {
         <View style={styles.card}>
           <Text style={[styles.text, styles.greenText]}>
             This is a sample text with green color.
+          </Text>
+        </View>
+
+        <View style={styles.card}>
+          <Text style={[styles.text, style.redText]}>
+            This is a sample text with red color.
+          </Text>
+        </View>
+
+        <View style={styles.card}>
+          <Text style={[styles.text, { color: 'orange', fontSize: 18, fontWeight: 'bold' }]}>
+            This is a sample text with orange color.
           </Text>
         </View>
       </View>
