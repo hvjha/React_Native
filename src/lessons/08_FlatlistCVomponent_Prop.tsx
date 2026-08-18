@@ -24,6 +24,11 @@ const FlatlistComponentProp = () => {
             id: 4,
             name: 'Sagar',
             email: 'sagar@gmail.com'
+        },
+        {
+            id:5,
+            name:'Santosh',
+            email:'santosh@gmail.com'
         }
     ]
 
@@ -91,14 +96,15 @@ const styles = StyleSheet.create({
     //     fontWeight: "thin"
     // },
     container: {
+        top:60,
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
         padding: 20,
         flexDirection: 'row',
         gap: 10,
-        margin: 10,
-        height: '100%'
+        margin:'auto',
+        height: 800
     },
     // card: {
     //     backgroundColor: '#ffffff',
