@@ -1,5 +1,7 @@
 // import Beautifying from './src/lessons/03_Beutifying';
 
+// import FlatlistComponentProp from "./src/lessons/08_FlatlistCVomponent_Prop";
+
 // export default Beautifying;
 
 
@@ -15,6 +17,11 @@
 
 // export default CustomList;
 
-import DynamicStatic from './src/lessons/07_Dynamic_Static';
+// import DynamicStatic from './src/lessons/07_Dynamic_Static';
 
-export default DynamicStatic;
+// export default DynamicStatic;
+
+
+import FlatlistComponentProp from './src/lessons/08_FlatlistCVomponent_Prop';
+
+export default FlatlistComponentProp;
