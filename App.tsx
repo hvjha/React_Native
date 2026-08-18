@@ -22,6 +22,10 @@
 // export default DynamicStatic;
 
 
-import FlatlistComponentProp from './src/lessons/08_FlatlistCVomponent_Prop';
+// import FlatlistComponentProp from './src/lessons/08_FlatlistCVomponent_Prop';
 
-export default FlatlistComponentProp;
+// export default FlatlistComponentProp;
+
+import SectionalList from "./src/lessons/09_SectionalListing";
+
+export default SectionalList;
