@@ -26,6 +26,9 @@
 
 // export default FlatlistComponentProp;
 
-import SectionalList from "./src/lessons/09_SectionalListing";
+// import SectionalList from "./src/lessons/09_SectionalListing";
 
-export default SectionalList;
+// export default SectionalList;
+
+import LifeCycle from "./src/lessons/10_LifeCycle";
+export default LifeCycle;
