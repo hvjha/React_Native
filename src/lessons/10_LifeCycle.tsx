@@ -15,12 +15,10 @@ const LifeCycle = () => {
     const currentYear = date.getFullYear();
     const currentDate = date.getDate();
 
-    // Count useEffect
     useEffect(() => {
         console.warn('count changed', count);
     }, [count]);
 
-    // Clock useEffect
     useEffect(() => {
         const timer = setInterval(() => {
             setDate(new Date());
@@ -29,7 +27,6 @@ const LifeCycle = () => {
         return () => clearInterval(timer);
     }, []);
 
-    // Time
     const hours = date.getHours();
     const minutes = date.getMinutes();
     const seconds = date.getSeconds();
@@ -37,16 +34,14 @@ const LifeCycle = () => {
     const displayHours = hours % 12 || 12;
     const ampm = hours >= 12 ? 'PM' : 'AM';
 
-    const formatTime = (value) => {
+    const formatTime = (value:any) => {
         return value.toString().padStart(2, '0');
     };
 
-    // Day
     const day = date.toLocaleDateString('en-US', {
         weekday: 'long',
     });
 
-    // Full date
     const calendarDate = date.toLocaleDateString('en-US', {
         day: 'numeric',
         month: 'long',
@@ -72,12 +67,10 @@ const LifeCycle = () => {
 
     const days = [];
 
-    // Empty spaces before first day
     for (let i = 0; i < firstDay; i++) {
         days.push('');
     }
 
-    // Dates
     for (let i = 1; i <= daysInMonth; i++) {
         days.push(i);
     }
@@ -89,12 +82,10 @@ const LifeCycle = () => {
             showsVerticalScrollIndicator={false}
         >
 
-            {/* Header */}
             <Text style={style.textHeader}>
                 Life Cycle Method
             </Text>
 
-            {/* Counter Card */}
             <View style={style.card}>
 
                 <Text style={style.label}>
@@ -114,7 +105,6 @@ const LifeCycle = () => {
 
             </View>
 
-            {/* Digital Clock Card */}
             <View style={style.digitalCard}>
 
                 <Text style={style.label}>
@@ -141,7 +131,6 @@ const LifeCycle = () => {
 
             </View>
 
-            {/* Calendar Card */}
             <View style={style.calendarCard}>
 
                 <Text style={style.label}>
@@ -152,7 +141,6 @@ const LifeCycle = () => {
                     {monthName} {currentYear}
                 </Text>
 
-                {/* Week Days */}
                 <View style={style.weekRow}>
                     <Text style={style.weekDay}>Sun</Text>
                     <Text style={style.weekDay}>Mon</Text>
@@ -163,7 +151,6 @@ const LifeCycle = () => {
                     <Text style={style.weekDay}>Sat</Text>
                 </View>
 
-                {/* Calendar Dates */}
                 <View style={style.calendarGrid}>
 
                     {days.map((day, index) => {
@@ -204,7 +191,6 @@ const LifeCycle = () => {
 
 const style = StyleSheet.create({
 
-    // Main ScrollView
     container: {
         flex: 1,
         backgroundColor: '#f2f4f7',
@@ -215,7 +201,6 @@ const style = StyleSheet.create({
         paddingBottom: 40,
     },
 
-    // Header
     textHeader: {
         fontSize: 24,
         fontWeight: 'bold',
@@ -228,7 +213,6 @@ const style = StyleSheet.create({
         marginBottom: 20,
     },
 
-    // Common Card
     card: {
         backgroundColor: '#ffffff',
         borderRadius: 16,
@@ -247,7 +231,6 @@ const style = StyleSheet.create({
         marginBottom: 20,
     },
 
-    // Digital Clock
     digitalCard: {
         backgroundColor: '#ffffff',
         borderRadius: 16,
@@ -266,7 +249,6 @@ const style = StyleSheet.create({
         marginBottom: 20,
     },
 
-    // Calendar
     calendarCard: {
         backgroundColor: '#ffffff',
         borderRadius: 16,
@@ -284,7 +266,6 @@ const style = StyleSheet.create({
         marginBottom: 20,
     },
 
-    // Card Label
     label: {
         fontSize: 18,
         fontWeight: '600',
@@ -292,7 +273,6 @@ const style = StyleSheet.create({
         marginBottom: 15,
     },
 
-    // Counter
     text: {
         fontSize: 45,
         fontWeight: 'bold',
@@ -306,14 +286,12 @@ const style = StyleSheet.create({
         marginBottom: 25,
     },
 
-    // Button
     btn: {
         width: '70%',
         borderRadius: 10,
         overflow: 'hidden',
     },
 
-    // Clock
     clock: {
         fontSize: 38,
         fontWeight: 'bold',
@@ -341,7 +319,6 @@ const style = StyleSheet.create({
         color: '#666',
     },
 
-    // Month
     month: {
         fontSize: 22,
         fontWeight: 'bold',
@@ -350,7 +327,6 @@ const style = StyleSheet.create({
         marginBottom: 20,
     },
 
-    // Week Row
     weekRow: {
         flexDirection: 'row',
         width: '100%',
@@ -365,7 +341,6 @@ const style = StyleSheet.create({
         color: '#666',
     },
 
-    // Calendar Grid
     calendarGrid: {
         flexDirection: 'row',
         flexWrap: 'wrap',
@@ -392,7 +367,6 @@ const style = StyleSheet.create({
         color: '#333',
     },
 
-    // Today's date
     today: {
         backgroundColor: '#0d3d19',
     },

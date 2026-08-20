@@ -30,5 +30,8 @@
 
 // export default SectionalList;
 
-import LifeCycle from "./src/lessons/10_LifeCycle";
-export default LifeCycle;
+// import LifeCycle from "./src/lessons/10_LifeCycle";
+// export default LifeCycle;
+
+import HideShow from "./src/lessons/11_HideShow";
+export default HideShow;
