@@ -33,5 +33,9 @@
 // import LifeCycle from "./src/lessons/10_LifeCycle";
 // export default LifeCycle;
 
-import HideShow from "./src/lessons/11_HideShow";
-export default HideShow;
+// import HideShow from "./src/lessons/11_HideShow";
+// export default HideShow;
+
+import Response from "./src/lessons/12_UI_Ref";
+export default Response;
+
