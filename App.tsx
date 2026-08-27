@@ -45,6 +45,8 @@
 // import Radio from "./src/lessons/14_Radio";
 // export default Radio;
 
-import Loaders from "./src/lessons/15_Loader";
-export default Loaders;
+// import Loaders from "./src/lessons/15_Loader";
+// export default Loaders;
 
+import ModalTest from "./src/lessons/16_Modal";
+export default ModalTest
