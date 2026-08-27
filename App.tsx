@@ -42,6 +42,9 @@
 // import BTN from "./src/lessons/13_btn";
 // export default BTN;
 
-import Radio from "./src/lessons/14_Radio";
-export default Radio;
+// import Radio from "./src/lessons/14_Radio";
+// export default Radio;
+
+import Loaders from "./src/lessons/15_Loader";
+export default Loaders;
 
