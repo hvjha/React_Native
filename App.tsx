@@ -51,5 +51,9 @@
 // import ModalTest from "./src/lessons/16_Modal";
 // export default ModalTest
 
-import Press from "./src/lessons/17_Press";
-export default Press;
+// import Press from "./src/lessons/17_Press";
+// export default Press;
+
+import Status from "./src/lessons/18_Status";
+export default Status;
+
