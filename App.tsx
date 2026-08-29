@@ -48,5 +48,8 @@
 // import Loaders from "./src/lessons/15_Loader";
 // export default Loaders;
 
-import ModalTest from "./src/lessons/16_Modal";
-export default ModalTest
+// import ModalTest from "./src/lessons/16_Modal";
+// export default ModalTest
+
+import Press from "./src/lessons/17_Press";
+export default Press;
