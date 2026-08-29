@@ -54,6 +54,9 @@
 // import Press from "./src/lessons/17_Press";
 // export default Press;
 
-import Status from "./src/lessons/18_Status";
-export default Status;
+// import Status from "./src/lessons/18_Status";
+// export default Status;
+
+import Link from "./src/lessons/19_Webview";
+export default Link;
 
